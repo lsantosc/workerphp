@@ -13,7 +13,7 @@
         "react/react": "0.4.*",
         "pimple/pimple": "~3.0",
         "symfony/event-dispatcher": "2.6.*",
-        "symfony/console": "2.6.*",
+        "symfony/console": "3.*",
         "symfony/process": "2.6.*",
         "symfony/finder": "2.6.*",
         "symfony/routing": "2.6.*",
