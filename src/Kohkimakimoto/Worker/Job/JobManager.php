@@ -156,6 +156,8 @@ class JobManager
                     }
                 }
                 call_user_func_array($command, $arguments);
+            } elseif (is_array($command) && count($command) > 0 && class_exists($command[0])) {
+                call_user_func($command);    
             } elseif (is_string($command)) {
                 // command is a string
                 $process = new Process($command);
